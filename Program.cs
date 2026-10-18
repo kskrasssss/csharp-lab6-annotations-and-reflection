@@ -13,6 +13,7 @@ while (true)
 
     switch (Console.ReadLine())
     {
+        case "3": Task3Demo.Run(); break;
         case "2": Task2Demo.Run(); break;
         case "1": Task1Demo.Run(); break;
         case "0": return;
