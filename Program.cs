@@ -1,4 +1,5 @@
-﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
+﻿using Lab_6;
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 while (true)
 {
@@ -12,7 +13,7 @@ while (true)
 
     switch (Console.ReadLine())
     {
-        // case
+        case "1": Task1Demo.Run(); break;
         case "0": return;
         default: Console.WriteLine("Невірний вибір"); break;
     }
